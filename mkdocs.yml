@@ -1,0 +1,109 @@
+site_name: The Li Family
+site_description: Welcome to the Li Family website
+site_author: Li Family
+
+theme:
+  name: material
+  palette:
+    # Light mode - Warm family theme
+    - scheme: default
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Dark mode - Elegant night theme
+    - scheme: slate
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - announce.dismiss
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  icon:
+    logo: material/home-heart
+    repo: fontawesome/brands/github
+
+# Extra CSS for custom background
+extra_css:
+  - stylesheets/extra.css
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# Navigation
+nav:
+  - Home: index.md
+  - Family Members:
+      - Parents:
+          - Yuanxi Li: about-yuanxi.md
+          - Jingya Zhang: about-jingya.md
+      - Children:
+          - Jasper Li: about-jasper.md
+          - Yris Li: about-yris.md
+  - Contact Us: contact.md
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - tags
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom

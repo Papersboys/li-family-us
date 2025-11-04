@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.linkedin.com)",
+      "Bash(pip install:*)",
+      "Bash(pip3 install:*)",
+      "WebFetch(domain:li-family.us)",
+      "Bash(mkdir:*)",
+      "Bash(curl:*)",
+      "WebFetch(domain:www.etonschool.org)",
+      "WebFetch(domain:www.openwindowschool.org)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
