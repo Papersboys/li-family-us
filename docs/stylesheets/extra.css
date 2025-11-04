@@ -13,12 +13,12 @@
   background: transparent;
 }
 
-/* Static gradient background - Purple/Pink family theme */
+/* Static light gradient background - Soft family theme */
 body {
   background: linear-gradient(135deg,
-    #8e44ad 0%,
-    #9b59b6 50%,
-    #c471ed 100%);
+    #e3f2fd 0%,
+    #f3e5f5 50%,
+    #fce4ec 100%);
   background-attachment: fixed;
 }
 
@@ -98,23 +98,56 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* Header adjustments - Match static background */
+/* Header adjustments - Match light background */
 .md-header {
   background: linear-gradient(135deg,
-    rgba(142, 68, 173, 0.95) 0%,
-    rgba(155, 89, 182, 0.95) 50%,
-    rgba(196, 113, 237, 0.95) 100%) !important;
+    rgba(227, 242, 253, 0.95) 0%,
+    rgba(243, 229, 245, 0.95) 50%,
+    rgba(252, 228, 236, 0.95) 100%) !important;
   backdrop-filter: blur(10px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.87) !important;
 }
 
-/* Navigation tabs - Match static background */
+/* Header text colors */
+.md-header__title,
+.md-header__button,
+.md-header-nav__button,
+.md-header .md-search__input {
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.md-header__topic {
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+/* Navigation tabs - Match light background */
 .md-tabs {
   background: linear-gradient(135deg,
-    rgba(142, 68, 173, 0.9) 0%,
-    rgba(155, 89, 182, 0.9) 50%,
-    rgba(196, 113, 237, 0.9) 100%) !important;
+    rgba(227, 242, 253, 0.9) 0%,
+    rgba(243, 229, 245, 0.9) 50%,
+    rgba(252, 228, 236, 0.9) 100%) !important;
   backdrop-filter: blur(10px);
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+/* Tab link colors */
+.md-tabs__link {
+  color: rgba(0, 0, 0, 0.87) !important;
+  opacity: 0.7;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: rgba(0, 0, 0, 0.87) !important;
+  opacity: 1;
+}
+
+/* Icon colors in header */
+.md-header svg,
+.md-header .md-icon {
+  fill: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.87) !important;
 }
 
 /* Sidebar adjustments with glass effect */
