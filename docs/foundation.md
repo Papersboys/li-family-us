@@ -1,4 +1,8 @@
-# Li Family Foundation
+# The Li Family Foundation
+
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=1200&h=400&fit=crop" alt="Education and Community" style="width: 100%; max-width: 1200px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</div>
 
 !!! quote "Our Mission"
     Empowering communities through education, innovation, and compassionate giving.

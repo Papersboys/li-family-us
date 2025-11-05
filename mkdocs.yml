@@ -1,6 +1,29 @@
 site_name: The Li Family
 site_description: Welcome to the Li Family website
 site_author: Li Family
+site_url: https://li-family.us
+
+# Copyright / Footer
+copyright: |
+  &copy; 2024 The Li Family Foundation<br>
+  <a href="mailto:yuanxi.li@li-family.us">yuanxi.li@li-family.us</a> |
+  <a href="mailto:jingya.zhang@li-family.us">jingya.zhang@li-family.us</a>
+
+# Social links in footer
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/liyuanxi/
+      name: Yuanxi Li on LinkedIn
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/zhangjingya112358/
+      name: Jingya Zhang on LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:yuanxi.li@li-family.us
+      name: Email Yuanxi
+    - icon: fontawesome/solid/envelope
+      link: mailto:jingya.zhang@li-family.us
+      name: Email Jingya
 
 theme:
   name: material
@@ -43,8 +66,10 @@ theme:
     code: Roboto Mono
 
   icon:
-    logo: material/home-heart
     repo: fontawesome/brands/github
+
+  logo: images/favicon.svg
+  favicon: images/favicon.svg
 
 # Extra CSS for custom background
 extra_css:

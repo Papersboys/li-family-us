@@ -9,7 +9,10 @@
       "Bash(curl:*)",
       "WebFetch(domain:www.etonschool.org)",
       "WebFetch(domain:www.openwindowschool.org)",
-      "Bash(mkdocs build)"
+      "Bash(mkdocs build)",
+      "Bash(rm:*)",
+      "WebFetch(domain:unsplash.com)",
+      "WebFetch(domain:www.pexels.com)"
     ],
     "deny": [],
     "ask": []

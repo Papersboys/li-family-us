@@ -1,5 +1,9 @@
 # Welcome to the Li Family :house_with_garden:
 
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&h=400&fit=crop" alt="Li Family" style="width: 100%; max-width: 1200px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</div>
+
 <div class="grid" markdown>
 
 <div markdown>
@@ -149,36 +153,6 @@ The Li family is a close-knit family that values:
     We cherish quality time together, whether it's exploring local attractions, family dinners, or simply enjoying each other's company.
 
 </div>
-
----
-
-## Stay Connected
-
-!!! info "This Website Serves As"
-
-    - :newspaper: Share family news and updates
-    - :family: Preserve family history and genealogy
-    - :camera: Share photos and memories
-    - :calendar: Coordinate family events and gatherings
-    - :globe_with_meridians: Keep in touch with extended family and friends
-
----
-
-## Family Resources
-
-!!! tip "Explore More"
-
-    === "Family Tree"
-        Discover your roots and learn about our family history across generations.
-
-    === "Photo Gallery"
-        Browse through our collection of cherished family photos and memories.
-
-    === "Events Calendar"
-        Stay updated on upcoming family gatherings, celebrations, and important dates.
-
-    === "Family Stories"
-        Read and contribute stories, anecdotes, and memories from family members.
 
 ---
 

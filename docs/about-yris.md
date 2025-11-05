@@ -130,16 +130,6 @@ We believe in:
 
 ---
 
-## Favorite Things
-
-- **Books**: [Favorite books, characters, or genres]
-- **Activities**: [Favorite activities and hobbies]
-- **Food**: [Favorite foods and treats]
-- **Places**: [Favorite places to visit and explore]
-- **Learning**: [What she's currently excited about]
-
----
-
 ## Looking Forward
 
 !!! quote "Our Hope for Yris"

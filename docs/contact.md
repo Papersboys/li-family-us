@@ -1,5 +1,9 @@
 # Contact Us
 
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1200&h=400&fit=crop" alt="Get in Touch" style="width: 100%; max-width: 1200px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</div>
+
 !!! info "Get In Touch"
     We'd love to hear from you! Whether you're family, friends, or just want to connect, feel free to reach out.
 
