@@ -50,7 +50,7 @@ Welcome to our family website! This is a place where we share our stories, memor
 
     **Backend Software Engineer @ Amazon**
 
-    8+ years of experience building scalable systems. Currently leading eligibility systems for Amazon Delivery Experience and previously built multimodal Alexa shopping features.
+    8+ years of experience building scalable systems. Currently leading core features and systems for Amazon across different teams.
 
     [:material-account-details: Full Profile](about-jingya.md){ .md-button }
     [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/zhangjingya112358/){ .md-button }
