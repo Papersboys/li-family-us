@@ -12,7 +12,8 @@
       "Bash(mkdocs build)",
       "Bash(rm:*)",
       "WebFetch(domain:unsplash.com)",
-      "WebFetch(domain:www.pexels.com)"
+      "WebFetch(domain:www.pexels.com)",
+      "Bash(mkdocs serve:*)"
     ],
     "deny": [],
     "ask": []
