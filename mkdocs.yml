@@ -105,7 +105,7 @@ markdown_extensions:
 # Navigation
 nav:
   - Home: index.md
-  - Family Members:
+  - Members:
       - Parents:
           - Yuanxi Li: about-yuanxi.md
           - Jingya Zhang: about-jingya.md
