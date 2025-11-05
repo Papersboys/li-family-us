@@ -87,6 +87,8 @@ nav:
       - Children:
           - Jasper Li: about-jasper.md
           - Yris Li: about-yris.md
+  - Foundation: foundation.md
+  - Calendar: calendar.md
   - Contact Us: contact.md
 
 # Plugins

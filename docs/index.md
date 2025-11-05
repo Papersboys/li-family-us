@@ -190,17 +190,11 @@ The Li family is a close-knit family that values:
 
     Stay informed with the latest family news, milestones, and announcements
 
--   :material-calendar-heart:{ .lg .middle } **Upcoming Events**
+-   :material-calendar-heart:{ .lg .middle } **[Upcoming Events](calendar.md)**
 
     ---
 
     Check out planned family gatherings, celebrations, and special occasions
-
--   :material-image-multiple:{ .lg .middle } **Photo Albums**
-
-    ---
-
-    Browse through our growing collection of family photos and special moments
 
 -   :material-book-open-page-variant:{ .lg .middle } **Family Stories**
 
