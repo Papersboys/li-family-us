@@ -1,0 +1,13 @@
+authors:
+  yuanxi:
+    name: Yuanxi Li
+    description: Father
+    avatar: https://ui-avatars.com/api/?name=Yuanxi+Li&background=673ab7&color=fff
+  jingya:
+    name: Jingya Zhang
+    description: Mother
+    avatar: https://ui-avatars.com/api/?name=Jingya+Zhang&background=673ab7&color=fff
+  family:
+    name: The Li Family
+    description: Family updates and stories
+    avatar: https://ui-avatars.com/api/?name=Li+Family&background=673ab7&color=fff

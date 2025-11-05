@@ -29,7 +29,7 @@
 <iframe src="https://calendar.google.com/calendar/embed?src=e4eb1492fb58af152b945e342fe196ae68d4045feba2a6ea1600ddd36b98d4fc%40group.calendar.google.com&ctz=America%2FLos_Angeles"
         style="border: 0"
         width="1000"
-        height="800"
+        height="650"
         frameborder="0"
         scrolling="no">
 </iframe>

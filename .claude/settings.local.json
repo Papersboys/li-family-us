@@ -13,7 +13,9 @@
       "Bash(rm:*)",
       "WebFetch(domain:unsplash.com)",
       "WebFetch(domain:www.pexels.com)",
-      "Bash(mkdocs serve:*)"
+      "Bash(mkdocs serve:*)",
+      "WebFetch(domain:squidfunk.github.io)",
+      "Bash(pip show:*)"
     ],
     "deny": [],
     "ask": []

@@ -112,6 +112,7 @@ nav:
       - Children:
           - Jasper Li: about-jasper.md
           - Yris Li: about-yris.md
+  - Blog: blog/index.md
   - Foundation: foundation.md
   - Calendar: calendar.md
   - Contact Us: contact.md
@@ -121,6 +122,11 @@ plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - tags
+  - blog:
+      blog_dir: blog
+      post_date_format: medium
+      post_url_format: "{slug}"
+      authors_file: "{blog}/.authors.yml"
   - glightbox:
       touchNavigation: true
       loop: false
