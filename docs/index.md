@@ -1,4 +1,4 @@
-# Welcome to the Li Family :house_with_garden:
+# Welcome to the Li Family
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&h=400&fit=crop" alt="Li Family" style="width: 100%; max-width: 1200px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
