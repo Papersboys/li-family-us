@@ -3,6 +3,9 @@
 !!! quote "Our Mission"
     Empowering communities through education, innovation, and compassionate giving.
 
+!!! success "Impact Since 2024"
+    Since our founding in 2024, the Li Family Foundation has contributed **$10,000+** to educational institutions and community programs, supporting excellence in education and cultural enrichment.
+
 ---
 
 ## About the Foundation
