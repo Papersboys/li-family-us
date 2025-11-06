@@ -6,6 +6,7 @@ site_url: https://li-family.us
 # Copyright / Footer
 copyright: |
   &copy; 2024 The Li Family Foundation<br>
+  <a href="mailto:admin@li-family.us">admin@li-family.us</a> |
   <a href="mailto:yuanxi.li@li-family.us">yuanxi.li@li-family.us</a> |
   <a href="mailto:jingya.zhang@li-family.us">jingya.zhang@li-family.us</a>
 
@@ -14,6 +15,9 @@ extra:
   comments:
     enabled: true
   social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:admin@li-family.us
+      name: Email Admin Office
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/liyuanxi/
       name: Yuanxi Li on LinkedIn

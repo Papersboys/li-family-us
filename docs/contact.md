@@ -13,6 +13,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-email:{ .lg .middle } **Admin Office**
+
+    ---
+
+    **General Inquiries & Administration**
+
+    [:material-email: admin@li-family.us](mailto:admin@li-family.us)
+
 -   :material-email:{ .lg .middle } **Yuanxi Li**
 
     ---
@@ -28,14 +36,6 @@
     **Backend Software Engineer @ Amazon**
 
     [:material-email: jingya.zhang@li-family.us](mailto:jingya.zhang@li-family.us)
-
--   :material-email:{ .lg .middle } **Admin Office**
-
-    ---
-
-    **General Inquiries & Administration**
-
-    [:material-email: admin@li-family.us](mailto:admin@li-family.us)
 
 </div>
 

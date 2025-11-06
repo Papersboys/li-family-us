@@ -55,9 +55,50 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Hide the footer */
+/* Style the footer with darker background */
 .md-footer {
-  display: none !important;
+  background: rgba(240, 240, 245, 0.98) !important;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.12);
+}
+
+[data-md-color-scheme="slate"] .md-footer {
+  background: rgba(20, 20, 25, 0.98) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Footer text colors */
+.md-footer-meta__inner {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+[data-md-color-scheme="slate"] .md-footer-meta__inner {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/* Footer links */
+.md-footer a {
+  color: #667eea;
+  transition: color 0.2s ease;
+}
+
+.md-footer a:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+/* Social icons in footer */
+.md-social__link {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.md-social__link:hover {
+  color: #667eea;
+}
+
+[data-md-color-scheme="slate"] .md-social__link {
+  color: rgba(255, 255, 255, 0.87);
 }
 
 /* Optional: Gradient overlay for better text contrast */
