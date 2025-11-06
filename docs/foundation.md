@@ -12,6 +12,15 @@
 
 ---
 
+## Support Our Mission
+
+!!! tip "Make a Donation"
+    Your contribution helps us continue our mission of empowering communities through education and innovation. Every donation makes a meaningful impact.
+
+    [:material-heart: Donate via GoFundMe](https://gofund.me/cd043c665){ .md-button .md-button--primary }
+
+---
+
 ## About the Foundation
 
 The Li Family Foundation is dedicated to making a positive impact through strategic philanthropy, community engagement, and support for causes that align with our values. We believe in giving back and creating opportunities for others to thrive.

@@ -11,6 +11,8 @@ copyright: |
 
 # Social links in footer
 extra:
+  comments:
+    enabled: true
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/liyuanxi/
@@ -27,6 +29,7 @@ extra:
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     # Light mode - Warm family theme
     - scheme: default
