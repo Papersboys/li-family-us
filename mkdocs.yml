@@ -74,6 +74,7 @@ theme:
 
   icon:
     repo: fontawesome/brands/github
+    search: fontawesome/solid/magnifying-glass
 
   logo: images/favicon.svg
   favicon: images/favicon.svg
