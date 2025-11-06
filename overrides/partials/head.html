@@ -1,21 +1,35 @@
-{% extends "base.html" %}
+<!-- Web App Manifest -->
+<link rel="manifest" href="{{ base_url }}/manifest.json">
 
-{% block extrahead %}
-  <!-- Favicon meta tags for better browser compatibility -->
-  <link rel="icon" type="image/svg+xml" href="{{ config.theme.favicon }}">
-  <link rel="shortcut icon" type="image/svg+xml" href="{{ config.theme.favicon }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ config.theme.favicon }}">
+<!-- SEO Meta Tags -->
+<meta name="robots" content="index, follow">
 
-  <!-- Open Graph / Social Media Meta Tags -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ config.site_name }}">
-  <meta property="og:description" content="{{ config.site_description }}">
-  <meta property="og:url" content="{{ config.site_url }}">
-  <meta property="og:image" content="{{ config.site_url }}/{{ config.theme.logo }}">
+<!-- Favicon meta tags for better browser compatibility -->
+<link rel="icon" type="image/svg+xml" href="{{ config.theme.favicon }}">
+<link rel="shortcut icon" type="image/svg+xml" href="{{ config.theme.favicon }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ config.theme.favicon }}">
 
-  <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ config.site_name }}">
-  <meta name="twitter:description" content="{{ config.site_description }}">
-  <meta name="twitter:image" content="{{ config.site_url }}/{{ config.theme.logo }}">
-{% endblock %}
+<!-- Google Brand Image (for Knowledge Graph) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ config.site_name }}",
+  "url": "{{ config.site_url }}",
+  "logo": "{{ config.site_url }}/{{ config.theme.logo }}",
+  "description": "{{ config.site_description }}"
+}
+</script>
+
+<!-- Open Graph / Social Media Meta Tags -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ config.site_name }}">
+<meta property="og:description" content="{{ config.site_description }}">
+<meta property="og:url" content="{{ config.site_url }}">
+<meta property="og:image" content="{{ config.site_url }}/{{ config.theme.logo }}">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ config.site_name }}">
+<meta name="twitter:description" content="{{ config.site_description }}">
+<meta name="twitter:image" content="{{ config.site_url }}/{{ config.theme.logo }}">

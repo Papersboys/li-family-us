@@ -1,0 +1,18 @@
+{
+  "name": "The Li Family",
+  "short_name": "Li Family",
+  "description": "Welcome to the Li Family website - sharing our stories, memories, and staying connected",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#673ab7",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
