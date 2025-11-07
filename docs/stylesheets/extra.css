@@ -27,10 +27,10 @@ body {
   /* Disabled */
 }
 
-/* Option to use background from li-family.us (commented out) */
+/* Option to use background from relative path (commented out) */
 /*
 body {
-  background-image: url('https://li-family.us/background.jpg');
+  background-image: url('../background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
