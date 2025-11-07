@@ -77,7 +77,7 @@ theme:
     search: fontawesome/solid/magnifying-glass
 
   logo: images/favicon.svg
-  favicon: images/favicon.svg
+  favicon: images/favicon.png
 
 # Extra CSS for custom background
 extra_css:

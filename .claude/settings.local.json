@@ -17,7 +17,11 @@
       "WebFetch(domain:squidfunk.github.io)",
       "Bash(pip show:*)",
       "Bash(git remote get-url:*)",
-      "Bash(sed:*)"
+      "Bash(sed:*)",
+      "Bash(python3:*)",
+      "Bash(qlmanage:*)",
+      "Bash(npm install:*)",
+      "Bash(node convert-favicon.js:*)"
     ],
     "deny": [],
     "ask": []
