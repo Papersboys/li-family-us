@@ -2,6 +2,7 @@ site_name: The Li Family
 site_description: Welcome to the Li Family website
 site_author: Li Family
 site_url: https://li-family.us
+use_directory_urls: false
 
 # Copyright / Footer
 copyright: |
