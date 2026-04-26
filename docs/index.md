@@ -156,6 +156,38 @@ The Li family is a close-knit family that values:
 
 ---
 
+## Family Apps
+
+<div class="grid cards" markdown>
+
+-   :material-chart-line:{ .lg .middle } **[yStocker](https://stock.li-family.us)**
+
+    ---
+
+    Stock research & portfolio analysis dashboard. Real-time valuations, heatmaps, 13F institutional holdings, Fed data, and AI-powered market insights.
+
+    [:material-open-in-new: stock.li-family.us](https://stock.li-family.us){ .md-button }
+
+-   :material-map-marker-path:{ .lg .middle } **[yPlanner](https://planner.li-family.us)**
+
+    ---
+
+    Trip planning with Google Maps integration. Build multi-stop itineraries, explore nearby places, search houses, and share trips with family.
+
+    [:material-open-in-new: planner.li-family.us](https://planner.li-family.us){ .md-button }
+
+-   :material-sprout:{ .lg .middle } **[yPlanter](https://planter.li-family.us)**
+
+    ---
+
+    Seattle garden guide for USDA Zone 8b. Vegetables, herbs, houseplants, yard design ideas, planting calendar, and AI-powered gardening advice.
+
+    [:material-open-in-new: planter.li-family.us](https://planter.li-family.us){ .md-button }
+
+</div>
+
+---
+
 <div class="grid cards" markdown>
 
 -   :material-clock-fast:{ .lg .middle } **Latest Updates**
