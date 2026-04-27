@@ -160,6 +160,14 @@ The Li family is a close-knit family that values:
 
 <div class="grid cards" markdown>
 
+-   :material-home:{ .lg .middle } **[yHome](https://home.li-family.us)**
+
+    ---
+
+    Family app hub — the central navigation page linking to all our apps. Quick access to everything we've built.
+
+    [:material-open-in-new: home.li-family.us](https://home.li-family.us){ .md-button .md-button--primary }
+
 -   :material-chart-line:{ .lg .middle } **[yStocker](https://stock.li-family.us)**
 
     ---
@@ -180,7 +188,7 @@ The Li family is a close-knit family that values:
 
     ---
 
-    Seattle garden guide for USDA Zone 8b. Vegetables, herbs, houseplants, yard design ideas, planting calendar, and AI-powered gardening advice.
+    Seattle garden guide for USDA Zone 8b. 50+ plants, shrubs, trees, perennials, planting calendar, yard design ideas, and AI gardening chat.
 
     [:material-open-in-new: planter.li-family.us](https://planter.li-family.us){ .md-button }
 
