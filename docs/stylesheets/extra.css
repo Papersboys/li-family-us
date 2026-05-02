@@ -150,6 +150,16 @@ body {
   color: rgba(0, 0, 0, 0.87) !important;
 }
 
+/* Dark mode header */
+[data-md-color-scheme="slate"] .md-header {
+  background: linear-gradient(135deg,
+    rgba(20, 20, 30, 0.95) 0%,
+    rgba(30, 20, 40, 0.95) 50%,
+    rgba(35, 20, 35, 0.95) 100%) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
 /* Header text colors */
 .md-header__title,
 .md-header__button,
@@ -158,8 +168,19 @@ body {
   color: rgba(0, 0, 0, 0.87) !important;
 }
 
+[data-md-color-scheme="slate"] .md-header__title,
+[data-md-color-scheme="slate"] .md-header__button,
+[data-md-color-scheme="slate"] .md-header-nav__button,
+[data-md-color-scheme="slate"] .md-header .md-search__input {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
 .md-header__topic {
   color: rgba(0, 0, 0, 0.87) !important;
+}
+
+[data-md-color-scheme="slate"] .md-header__topic {
+  color: rgba(255, 255, 255, 0.87) !important;
 }
 
 /* Navigation tabs - Match light background */
@@ -172,9 +193,23 @@ body {
   color: rgba(0, 0, 0, 0.87) !important;
 }
 
+/* Dark mode tabs */
+[data-md-color-scheme="slate"] .md-tabs {
+  background: linear-gradient(135deg,
+    rgba(20, 20, 30, 0.9) 0%,
+    rgba(30, 20, 40, 0.9) 50%,
+    rgba(35, 20, 35, 0.9) 100%) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
 /* Tab link colors */
 .md-tabs__link {
   color: rgba(0, 0, 0, 0.87) !important;
+  opacity: 0.7;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link {
+  color: rgba(255, 255, 255, 0.87) !important;
   opacity: 0.7;
 }
 
@@ -184,11 +219,23 @@ body {
   opacity: 1;
 }
 
+[data-md-color-scheme="slate"] .md-tabs__link--active,
+[data-md-color-scheme="slate"] .md-tabs__link:hover {
+  color: rgba(255, 255, 255, 0.87) !important;
+  opacity: 1;
+}
+
 /* Icon colors in header */
 .md-header svg,
 .md-header .md-icon {
   fill: rgba(0, 0, 0, 0.87) !important;
   color: rgba(0, 0, 0, 0.87) !important;
+}
+
+[data-md-color-scheme="slate"] .md-header svg,
+[data-md-color-scheme="slate"] .md-header .md-icon {
+  fill: rgba(255, 255, 255, 0.87) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
 }
 
 /* Sidebar adjustments with glass effect */
