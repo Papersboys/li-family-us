@@ -1,27 +1,50 @@
 # The Li Family Website
 
-Welcome to the Li family website repository! This is a beautiful family website built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) to share our family stories, milestones, and stay connected.
+> **Live site:** [li-family.us](https://li-family.us)
 
-## 🏠 About
+A modern, responsive family website built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) to share our family stories, milestones, and stay connected. Featuring a glassmorphic purple-gradient design, dark mode, SEO optimization, and a suite of family web apps.
 
-A modern, responsive family website featuring:
-- Family member profiles with detailed information
-- Beautiful purple gradient design
-- Contact information
-- Photo galleries (coming soon)
-- Mobile-friendly responsive design
+---
 
-## 👨‍👩‍👧‍👦 Family Members
+## Family Members
 
 ### Parents
-- **Yuanxi Li** - Staff Software Engineer @ Apple
-- **Jingya Zhang** - Backend Software Engineer @ Amazon
+- **Yuanxi Li** — Staff Software Engineer @ Apple
+- **Jingya Zhang** — Backend Software Engineer @ Amazon
 
 ### Children
-- **Jasper Li** - Student at Eton School
-- **Yris Li** - Student at KLA Schools of Bellevue
+- **Jasper Li** — Student at Eton School
+- **Yris Li** — Student at KLA Schools of Bellevue
 
-## 🚀 Quick Start
+---
+
+## Family Apps Ecosystem
+
+| App | URL | Description |
+|-----|-----|-------------|
+| **yHome** | [home.li-family.us](https://home.li-family.us) | Family app hub — central navigation to all apps |
+| **yStocker** | [stock.li-family.us](https://stock.li-family.us) | Stock research dashboard with AI-powered market insights |
+| **yPlanner** | [planner.li-family.us](https://planner.li-family.us) | Trip planning with Google Maps integration |
+| **yPlanter** | [planter.li-family.us](https://planter.li-family.us) | Seattle garden guide for USDA Zone 8b |
+
+---
+
+## Features
+
+- **Glassmorphic Design** — Purple gradient theme with frosted-glass cards, dark mode toggle
+- **Family Profiles** — Detailed pages for each family member with career highlights, interests, and milestones
+- **Blog** — Family updates, stories, and news with author attribution
+- **Foundation** — Li Family Foundation page with donation support and initiative tracking
+- **Calendar** — Embedded Google Calendar for shared family events
+- **Comments** — Giscus-powered discussion on every page (backed by GitHub Discussions)
+- **Image Galleries** — GLightbox integration for photo lightboxes
+- **SEO Optimized** — Open Graph, Twitter Cards, JSON-LD structured data, and PWA manifest
+- **Responsive** — Mobile-friendly on all devices
+- **Auto-Deploy** — Push to `main` and GitHub Actions deploys to GitHub Pages
+
+---
+
+## Quick Start
 
 ### Prerequisites
 - Python 3.x
@@ -31,7 +54,7 @@ A modern, responsive family website featuring:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/[your-username]/li-family-us.git
+   git clone https://github.com/Papersboys/li-family-us.git
    cd li-family-us
    ```
 
@@ -46,72 +69,91 @@ A modern, responsive family website featuring:
    ```
 
 4. **Open in browser**
-   Visit http://127.0.0.1:8000
+   Visit [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-## 📁 Project Structure
+---
+
+## Project Structure
 
 ```
 li-family-us/
 ├── docs/
-│   ├── index.md              # Homepage
-│   ├── about-yuanxi.md       # Yuanxi's profile
-│   ├── about-jingya.md       # Jingya's profile
-│   ├── about-jasper.md       # Jasper's profile
-│   ├── about-yris.md         # Yris's profile
-│   ├── contact.md            # Contact page
+│   ├── index.md                 # Homepage
+│   ├── about-yuanxi.md          # Yuanxi's profile
+│   ├── about-jingya.md          # Jingya's profile
+│   ├── about-jasper.md          # Jasper's profile
+│   ├── about-yris.md            # Yris's profile
+│   ├── contact.md               # Contact page
+│   ├── foundation.md            # Li Family Foundation
+│   ├── calendar.md              # Embedded Google Calendar
+│   ├── blog/
+│   │   ├── index.md             # Blog landing page
+│   │   ├── .authors.yml         # Blog author definitions
+│   │   └── posts/               # Blog posts (markdown)
 │   ├── stylesheets/
-│   │   └── extra.css         # Custom styling
-│   └── images/               # Image assets
-├── mkdocs.yml                # MkDocs configuration
+│   │   └── extra.css            # Custom glassmorphic styling
+│   ├── images/                  # Favicons and image assets
+│   ├── manifest.json            # PWA web app manifest
+│   └── CNAME                    # Custom domain config
+├── overrides/
+│   ├── main.html                # SEO meta tags & structured data
+│   └── partials/
+│       ├── comments.html        # Giscus comments widget
+│       ├── footer.html          # Custom footer with social links
+│       └── head.html            # Additional head meta tags
 ├── .github/
 │   └── workflows/
-│       └── ci.yml            # GitHub Actions deployment
-└── README.md                 # This file
+│       └── ci.yml               # GitHub Actions auto-deploy
+├── mkdocs.yml                   # MkDocs configuration
+├── GISCUS_SETUP.md              # Giscus comment system setup guide
+├── package.json                 # Node dependencies (sharp)
+└── README.md                    # This file
 ```
 
-## 🎨 Features
+---
 
-- **Modern Design**: Beautiful purple gradient theme with glassmorphism effects
-- **Responsive**: Mobile-friendly and works on all devices
-- **Fast**: Static site generation for lightning-fast load times
-- **SEO Friendly**: Optimized for search engines
-- **Dark Mode**: Automatic light/dark mode toggle
-- **Image Galleries**: GLightbox integration for beautiful photo displays
-- **Easy Updates**: Simple markdown-based content management
+## Tech Stack
 
-## 🛠️ Tech Stack
+- **[MkDocs](https://www.mkdocs.org/)** — Static site generator
+- **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)** — Theme with tabs, search, dark mode
+- **[GLightbox](https://github.com/biati-digital/glightbox)** — Image lightbox plugin
+- **[Giscus](https://giscus.app/)** — GitHub Discussions-powered comments
+- **GitHub Actions** — CI/CD auto-deployment
+- **GitHub Pages** — Hosting with custom domain
 
-- **[MkDocs](https://www.mkdocs.org/)** - Static site generator
-- **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)** - Beautiful theme
-- **[GLightbox](https://github.com/biati-digital/glightbox)** - Image lightbox plugin
-- **GitHub Actions** - Automated deployment
-- **GitHub Pages** - Free hosting
+---
 
-## 📝 Customization
+## Customization
 
 ### Update Content
-Edit the markdown files in the `docs/` folder:
-- `index.md` - Homepage content
-- `about-*.md` - Family member profiles
-- `contact.md` - Contact information
+Edit the markdown files in `docs/`:
+- `index.md` — Homepage content and Family Apps
+- `about-*.md` — Family member profiles
+- `foundation.md` — Foundation initiatives and donations
+- `calendar.md` — Calendar embed configuration
+- `contact.md` — Contact information
+- `blog/posts/` — Add new blog posts
 
 ### Change Colors
 Edit `docs/stylesheets/extra.css` to customize:
 - Background gradients
-- Header colors
-- Button styles
-- Card appearances
+- Header and tab bar colors
+- Button styles and card appearances
+- Dark mode palette
 
 ### Update Configuration
 Edit `mkdocs.yml` to change:
-- Site name and description
+- Site name, description, and author
 - Navigation structure
-- Theme colors
+- Theme colors and features
 - Plugins and extensions
+- Social links in footer
 
-## 🚢 Deployment
+---
 
-The site automatically deploys to GitHub Pages when you push to the `main` branch.
+## Deployment
+
+The site auto-deploys to GitHub Pages on every push to `main`.
 
 ### Manual Deployment
 ```bash
@@ -119,20 +161,23 @@ mkdocs gh-deploy
 ```
 
 ### Custom Domain
-1. Add a `CNAME` file to `docs/` with your domain
-2. Configure DNS settings at your domain provider
-3. Enable custom domain in GitHub Pages settings
+1. The `CNAME` file in `docs/` is set to `li-family.us`
+2. DNS is configured at the domain provider
+3. GitHub Pages custom domain is enabled in repo settings
 
-## 📧 Contact
+---
 
+## Contact
+
+- **Admin**: [admin@li-family.us](mailto:admin@li-family.us)
 - **Yuanxi Li**: [yuanxi.li@li-family.us](mailto:yuanxi.li@li-family.us)
 - **Jingya Zhang**: [jingya.zhang@li-family.us](mailto:jingya.zhang@li-family.us)
 
-## 📍 Location
+**Location:** Greater Seattle Area, Washington
 
-Greater Seattle Area, Washington
+---
 
-## 🤝 Contributing
+## Contributing
 
 This is a private family website. Family members can contribute by:
 1. Creating a branch for your changes
@@ -140,16 +185,18 @@ This is a private family website. Family members can contribute by:
 3. Submitting a pull request
 4. Changes will be reviewed and merged
 
-## 📄 License
+---
+
+## License
 
 This is a private family website. All rights reserved.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
-- Inspired by modern family websites
+- Comments powered by [Giscus](https://giscus.app/)
 - Icons by [Material Design Icons](https://materialdesignicons.com/)
 
 ---
 
-Made with ❤️ by the Li Family
+Made with :heart: by the Li Family

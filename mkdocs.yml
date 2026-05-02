@@ -1,12 +1,12 @@
 site_name: The Li Family
-site_description: Welcome to the Li Family website
+site_description: The Li Family — a family of four in the Greater Seattle Area sharing stories, milestones, and adventures. Built with love by Yuanxi Li & Jingya Zhang.
 site_author: Li Family
 site_url: https://li-family.us
 use_directory_urls: false
 
 # Copyright / Footer
 copyright: |
-  &copy; 2024 The Li Family Foundation<br>
+  &copy; 2024-2025 The Li Family Foundation<br>
   <a href="mailto:admin@li-family.us">admin@li-family.us</a> |
   <a href="mailto:yuanxi.li@li-family.us">yuanxi.li@li-family.us</a> |
   <a href="mailto:jingya.zhang@li-family.us">jingya.zhang@li-family.us</a>

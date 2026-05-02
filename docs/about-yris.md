@@ -122,11 +122,11 @@ We believe in:
 
 !!! success "Celebrating Growth"
 
-    - **Academic**: [Add specific achievements]
+    - **Academic**: Flourishing at KLA Schools of Bellevue with a love for hands-on, play-based learning
     - **Social**: Developing deep friendships and social awareness
-    - **Creative**: [Add creative accomplishments]
+    - **Creative**: Exploring art, dance, and imaginative storytelling with enthusiasm
     - **Character**: Demonstrating kindness, courage, and authenticity
-    - **Skills**: [Add skill development milestones]
+    - **Skills**: Growing in creative thinking, communication, and collaborative teamwork
 
 ---
 
@@ -148,8 +148,8 @@ We believe in:
 
 ## Photo Gallery
 
-!!! note "Coming Soon"
-    Photos and memories of Yris's adventures and special moments will be added here.
+!!! tip "Share a Memory"
+    We're building Yris's photo gallery! Family members can share photos and memories by emailing us at [admin@li-family.us](mailto:admin@li-family.us).
 
 ---
 

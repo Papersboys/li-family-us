@@ -121,11 +121,11 @@ We believe in:
 
 !!! success "Celebrating Growth"
 
-    - **Academic**: [Add specific achievements]
+    - **Academic**: Thriving at Eton School with strong progress in reading, math, and creative projects
     - **Social**: Building strong friendships and teamwork skills
-    - **Creative**: [Add creative accomplishments]
-    - **Character**: Showing kindness, responsibility, and resilience
-    - **Skills**: [Add skill development milestones]
+    - **Creative**: Developing a talent for painting and hands-on building projects
+    - **Character**: Showing kindness, responsibility, and resilience every day
+    - **Skills**: Growing in problem-solving, tech literacy, and leadership through play
 
 ---
 
@@ -146,8 +146,8 @@ We believe in:
 
 ## Photo Gallery
 
-!!! note "Coming Soon"
-    Photos and memories of Jasper's adventures and milestones will be added here.
+!!! tip "Share a Memory"
+    We're building Jasper's photo gallery! Family members can share photos and memories by emailing us at [admin@li-family.us](mailto:admin@li-family.us).
 
 ---
 
