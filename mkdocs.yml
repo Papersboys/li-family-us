@@ -124,7 +124,11 @@ nav:
   - Blog: blog/index.md
   - Foundation: foundation.md
   - Calendar: calendar.md
-  - Stocks: https://stock.li-family.us
+  - Family Apps:
+      - yHome: https://home.li-family.us
+      - yStocker: https://stock.li-family.us
+      - yPlanner: https://planner.li-family.us
+      - yPlanter: https://planter.li-family.us
   - Contact Us: contact.md
 
 # Plugins
