@@ -9,7 +9,7 @@ categories:
 
 # Spring 2026 Family Update
 
-![Spring in Seattle](https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=1200&h=400&fit=crop)
+![Spring in Seattle](https://images.unsplash.com/photo-1462275646964-a0e3c11f18a6?w=1200&h=400&fit=crop)
 
 Happy spring from the Li family! As the Pacific Northwest comes alive with cherry blossoms and longer days, we wanted to share what we've been up to.
 
