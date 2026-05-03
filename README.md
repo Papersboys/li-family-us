@@ -26,6 +26,7 @@ A modern, responsive family website built with [MkDocs Material](https://squidfu
 | **yStocker** | [stock.li-family.us](https://stock.li-family.us) | Stock research dashboard with AI-powered market insights |
 | **yPlanner** | [planner.li-family.us](https://planner.li-family.us) | Trip planning with Google Maps integration |
 | **yPlanter** | [planter.li-family.us](https://planter.li-family.us) | Seattle garden guide for USDA Zone 8b |
+| **yTracker** | [tracker.li-family.us](https://tracker.li-family.us) | Family goal & habit tracker |
 
 ---
 

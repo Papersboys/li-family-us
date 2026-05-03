@@ -192,6 +192,14 @@ The Li family is a close-knit family that values:
 
     [:material-open-in-new: planter.li-family.us](https://planter.li-family.us){ .md-button }
 
+-   :material-target:{ .lg .middle } **[yTracker](https://tracker.li-family.us)**
+
+    ---
+
+    Family goal & habit tracker. Set goals, track progress, build streaks, and stay motivated together as a family.
+
+    [:material-open-in-new: tracker.li-family.us](https://tracker.li-family.us){ .md-button }
+
 </div>
 
 ---
